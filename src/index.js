@@ -4,9 +4,10 @@ import { Provider } from 'react-redux';
 import { applyMiddleware, createStore } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import { combineReducers } from 'redux'
+import { combineReducers } from 'redux';
 import { searchRobot, requestRobotReducer } from './actionReducers';
 import './index.css';
+import 'tachyons';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 
